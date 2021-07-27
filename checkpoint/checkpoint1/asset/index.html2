@@ -1,0 +1,195 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>checkpoint1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+    <div class="first" >
+
+       <a href="index.html">HOME</a>
+       <a href="blog.html">BLOG</a>
+        </div>
+    </header>
+    <main>
+        <section>
+            <h1>The Box Model, Box sizing and Box Shadow</h1>
+            <h3>Exercise One</h3>
+            <div class="box">sdfghjkl</div>
+            
+            <div class="marker-container">
+                <div class="marker">sdfghjk</div>
+                    <span class="circle one">#99D8CA"</span>
+                    
+                    <div class="marker"></div>
+                        <span class="circle two"> #0D1430</span>
+                        
+                        <div class="marker"></div>
+                            <span class="circle three">#90FFA9</span>
+                            <div class="marker"></div>
+                                <span class="circle four ">#5873E2</span>
+                                
+                                <hr>
+                                </section>
+                                <section class="box-parent">
+                                    <h2>Exercise Two</h2>
+                                    
+                                    <div class="container contain"> <span class="internal"><div class="child-box "></div>
+                                        <div class="child-box lower"></div>
+                                        <div class="child-box lower"></div></span>
+                                    </div>
+                                </div>
+                                <div class="container contain"> <span class="internal"><div class="child-box "></div>
+                                    <div class="child-box lower"></div>
+                                    <div class="child-box lower"></div></span>
+                                </div>
+                                </section>
+
+
+
+
+
+        </section>
+    </main>
+    
+</body>
+</html>
+header{
+    text-align: center;
+    font-size: 20px;
+    padding: 20px;
+    background-color:rgb(7,21,76) ;
+
+}
+
+
+h1{
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+}
+h3{
+    font-size: 20px;
+    margin:40px ;
+    text-align: center;
+}
+.box{
+    width: 180px;
+    height: 180px;
+    background-color:lightsteelblue;
+    margin: 0 auto;
+    border: 20px solid lightskyblue;
+    outline: 10px solid black;
+    box-shadow: 0 0 0 25px rgb(144,255,169);
+    border-radius: 1.5px
+}
+.marker{
+    margin: 0 50px;
+    display: inline-block;
+    padding: 20px;
+} 
+.marker-container{
+    text-align: center;
+    padding-top: 30px;
+}
+.box-margin{
+    padding-top:20px ;
+}
+
+hr{
+    width: 500px;
+    border-style: dashed;
+    border-color: grey;
+    margin: 32px auto 
+}
+h2{
+    font-size: 20px;
+    padding:20px ;
+    text-align: center;
+}
+
+    .child-box{
+        width: 150px;
+        height: 40px;
+        background-color: rgb(218,224,250);
+        display: inline-block;
+        padding: 20px 0;
+        margin-top: 10px;
+        margin: 0 auto;
+
+        }
+
+        .container{
+                border: 1px solid black;
+                display: inline-block;
+                padding: 20px;
+                margin-left: 358px;
+                
+
+                }
+                img{
+                    width: 400px;
+                    height: 250px;
+                    margin-left: 30px;
+                    padding: 50px;
+
+                }
+                h1{
+                    font-size: 20px;
+                
+                }
+                
+                .paragraph{
+
+                }
+                .box-parent{
+
+max-width: 1200px;
+width: 100%;
+margin: 0 auto;
+
+                }
+                .circle{
+                    height: 10px;
+                    width: 10px;
+                    border-radius: 50%;
+
+                }
+                
+    
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>checkpoint1</title>
+</head>
+<body>
+    <header><div class="second" >
+
+        <a href="index.html">HOME</a>
+        <a href="blog.html">BLOG</a>
+         </div>
+     </header>
+     <main>
+         <section class="box-prent">
+             <div class="paragraph">
+             <img src="pic01.png" alt="">
+            <h1>The Standard Lorem Ipsum passage, used since the 1500s</h1></div>
+             <img src="pic03.png" alt="">
+
+
+         </section>
+
+
+     </main>
+    
+</body>
+</html>
